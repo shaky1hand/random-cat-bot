@@ -1,0 +1,22 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cat-bot-php
+    volumes:
+      - .:/var/www/html
+    environment:
+      - APP_ENV=dev
+
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cat-bot
+    volumes:
+      - .:/var/www/html
+    restart: always
+    depends_on:
+      - php
+    command: php bin/console app:run-bot
