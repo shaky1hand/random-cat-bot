@@ -1,4 +1,4 @@
-# My Cat Bot
+# Random Cat Bot
 
 A simple Telegram bot built with Symfony that sends a random cat photo on command.
 
@@ -25,7 +25,7 @@ You need to have Docker and Docker Compose installed on your system.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/shaky1hand/random-cat-bot/
-   cd my_cat_bot
+   cd random-cat-bot
    ```
 
 2. **Create and configure the `.env` file:**
