@@ -24,7 +24,7 @@ You need to have Docker and Docker Compose installed on your system.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shaky1hand/random-cat-bot/
+   git clone https://github.com/shaky1hand/random-cat-bot.git
    cd random-cat-bot
    ```
 
@@ -53,7 +53,7 @@ You need to have Docker and Docker Compose installed on your system.
 Once the bot is running, you can send it commands in your Telegram chat:
 
   - `/start`: Get a welcome message from the bot.
-  - `/cat`: (Coming soon) Get a random photo of a cat.
+  - `/cat`: Get a random photo of a cat.
 
 ## Technology Stack
 
